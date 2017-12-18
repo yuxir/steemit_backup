@@ -13,7 +13,7 @@ def backup(user, config_file):
     except yaml.YAMLError as exc:
       print(exc)
 
-  if dict[user] is None or dict[user]=="":
+  if user not in dict:
     print ("Cannot find settings for user: %s" % user)
     exit()
 
