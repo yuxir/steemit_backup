@@ -1,0 +1,8 @@
+yuxi:
+  latest_posts_only: true
+  check_back_hours:  24
+  backup_folder:     /home/yuxi/steemit/backup/
+  add_date_prefix: true
+  exclude_categories: test
+
+
