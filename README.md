@@ -1,3 +1,5 @@
+Please follow me on https://steemit.com/@yuxi
+
 ## A steemit posts backup tool
 
 As time passes, many steemians have written losts of posts in Steemit. It's a time to think about the backups. Unfortunately, Steemit doesnot provide backup feature. I have implemented a tool to do the backup. It is based on Python Steem library and has been tested on Ubuntu 16. 
