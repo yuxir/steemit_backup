@@ -35,7 +35,7 @@ def backup(user, config_file):
         _permlink = p['permlink']
         _title    = p['title']
         _body     = p['body']
-        _category = p['tags'][0]
+        _category = p['category']
 
         if latest_posts_only==True and (_date+timedelta(hours=check_back_hours)<datetime.now()):
           print('reached the end, exit...')
